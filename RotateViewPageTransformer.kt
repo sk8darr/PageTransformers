@@ -3,7 +3,7 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.viewpager2.widget.ViewPager2
 
 
-class PageTransformer : ViewPager2.PageTransformer {
+class RotateViewPageTransformer : ViewPager2.PageTransformer {
 
     override fun transformPage(view: View, position: Float) {
 
